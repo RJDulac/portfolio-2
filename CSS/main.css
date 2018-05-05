@@ -22,12 +22,35 @@
     .main-header-image:hover {
       animation: flip-stuff 1s ease-out forwards; }
 
+.main-section-p-large {
+  margin-bottom: 1rem;
+  color: white; }
+
+.main-section-hr {
+  overflow: visible;
+  /* For IE */
+  height: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 0 0 0;
+  border-radius: 20px; }
+  .main-section-hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+
+.main-section-p {
+  color: white; }
+
 .main-section-intro {
-  display: flex;
-  justify-content: center;
-  background: rgba(26, 106, 237, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   margin-top: 4rem;
-  border: solid 3px rgba(0, 91, 239, 0.4);
+  border: solid 3px rgba(0, 0, 0, 0.4);
   height: 8rem;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
   animation: move-up 1s ease-out forwards; }
