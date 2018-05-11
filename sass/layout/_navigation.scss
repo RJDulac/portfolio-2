@@ -25,9 +25,11 @@
 		& a {
 			text-decoration: none;
 			font-size: 2rem;
+			text-transform: uppercase;
 			color: white;
 			font-weight: bold;
-			&:hover {
+			&:hover,
+			&:active {
 				color: green;
 				// background-color: white;
 				padding-bottom: .5rem;
@@ -35,12 +37,14 @@
 				// animation: wiggle 400ms 1s infinite ease-out;
 			}
 
+
 		}
 	}
 	&__brand {
 		text-decoration: none;
 		font-size: 3rem;
 		font-weight: bold;
+		text-transform: uppercase;
 		color: blue;
 		animation: enter-right 1s 2s 1;
 

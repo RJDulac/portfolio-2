@@ -22,9 +22,10 @@
     .nav__item a {
       text-decoration: none;
       font-size: 2rem;
+      text-transform: uppercase;
       color: white;
       font-weight: bold; }
-      .nav__item a:hover {
+      .nav__item a:hover, .nav__item a:active {
         color: green;
         padding-bottom: .5rem;
         border-bottom: 4px solid white; }
@@ -32,6 +33,7 @@
     text-decoration: none;
     font-size: 3rem;
     font-weight: bold;
+    text-transform: uppercase;
     color: blue;
     animation: enter-right 1s 2s 1; }
     .nav__brand:hover {
