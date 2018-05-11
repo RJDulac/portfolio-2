@@ -1,0 +1,58 @@
+.nav {
+	position: fixed;
+	background: linear-gradient(30deg, green, blue);
+	box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.3);
+	height: 6rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	
+	&__items {
+		list-style: none;
+		display: flex;
+		
+	}
+	&__item {
+		
+		margin: 0 2rem 0 2rem;
+		animation: enter-left 1s 2s 1;
+		// transform: translateX(30rem); 
+
+
+
+		& a {
+			text-decoration: none;
+			font-size: 2rem;
+			color: white;
+			font-weight: bold;
+			&:hover {
+				color: green;
+				// background-color: white;
+				padding-bottom: .5rem;
+				border-bottom: 4px solid white;
+				// animation: wiggle 400ms 1s infinite ease-out;
+			}
+
+		}
+	}
+	&__brand {
+		text-decoration: none;
+		font-size: 3rem;
+		font-weight: bold;
+		color: blue;
+		animation: enter-right 1s 2s 1;
+
+		&:hover {
+			color: white;
+			// transform: skewY(-7deg);
+
+		}
+
+	}
+}
+
+
+
+
