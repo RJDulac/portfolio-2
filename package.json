@@ -1,17 +1,31 @@
 {
-  "name": "Dulac",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Portfolio for Ryan Dulac",
+  "description": "Ryan Dulac's portfolio",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass main.scss CSS/main.css -w"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.7.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJDulac/portfolio-2.git"
   },
+  "keywords": [
+    "sass",
+    "css",
+    "javascript",
+    "ryan",
+    "dulac",
+    "portfolio"
+  ],
+  "author": "Ryan Dulac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJDulac/portfolio-2/issues"
+  },
+  "homepage": "https://github.com/RJDulac/portfolio-2#readme",
   "dependencies": {
+    "node-sass": "^4.9.0",
     "sass": "^1.3.2"
   }
 }
