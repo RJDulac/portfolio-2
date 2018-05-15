@@ -11,6 +11,8 @@
     border-radius: 50%;
     transform: translateY(8rem);
     filter: grayscale(60%); }
+    .header__main-img:hover {
+      animation: color-me 1s ease-out forwards; }
   .header__main-links a {
     display: block;
     text-decoration: none;
@@ -26,7 +28,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  z-index: 100; }
   .nav__items {
     list-style: none;
     display: flex; }
@@ -94,3 +97,14 @@ body {
     transform: scale(1.5); }
   100% {
     transform: scale(0); } }
+
+@keyframes color-me {
+  0% {
+    filter: grayscale(40%);
+    transform: scale(1.05) translateY(7rem); }
+  50% {
+    filter: grayscale(20%);
+    transform: scale(1.1) translateY(6rem); }
+  100% {
+    filter: grayscale(0%);
+    transform: scale(1.15) translateY(8rem); } }

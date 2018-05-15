@@ -33,6 +33,10 @@
 			//maybe change later or remove
         	// border: 2px solid rgba(0, 0, 255, .3);
 
+            &:hover {
+                animation: color-me 1s ease-out forwards;
+            }
+
         }
         &-links a{
         	display: block;

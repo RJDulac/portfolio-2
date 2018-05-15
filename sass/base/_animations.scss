@@ -47,3 +47,21 @@
 		transform: scale(0);
 	}
 }
+
+  @keyframes color-me {
+    0% {
+      // transform: rotateY(0) translateY(8rem);
+      filter: grayscale(40%);
+      transform: scale(1.05) translateY(7rem);
+    }
+    50% {
+      // transform: rotateY(160deg) translateY(8rem);
+      filter: grayscale(20%);
+      transform: scale(1.1) translateY(6rem);
+    }
+    100% {
+     
+      filter: grayscale(0%);
+      transform: scale(1.15) translateY(8rem);
+    }
+  }
