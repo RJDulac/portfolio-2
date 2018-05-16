@@ -65,15 +65,15 @@
       transform: scale(1.15) translateY(8rem);
     }
   }
-//need better solution
+
   @keyframes move-up {
     0% {
-        transform: translateY(4);
+        transform: translateY(0);
     }
     33% {
-        transform: translateY(2.5rem)
+        transform: translateY(-1.5rem)
     }
     100% {
-        transform: translateY(3rem);
+        transform: translateY(-1rem);
     }
 }
