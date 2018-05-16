@@ -43,7 +43,7 @@
       color: #d2d4d8;
       font-weight: bold; }
       .nav__item a:hover, .nav__item a:active {
-        color: green;
+        color: black;
         padding-bottom: .5rem;
         border-bottom: 4px solid #d2d4d8; }
   .nav__brand {
@@ -56,30 +56,34 @@
     transition: all .2s; }
     .nav__brand:hover {
       transform: scale(1.1);
-      outline: 4px solid #510006; }
+      outline: 4px solid black;
+      color: white; }
 
 .active {
   border-bottom: 4px solid #d2d4d8; }
 
 .section__about {
   display: flex;
+  flex-direction: column;
   height: 100%;
   height: 100rem;
   background-image: linear-gradient(to right bottom, rgba(52, 62, 79, 0.6), rgba(63, 65, 68, 0.6)), url("../img/laptop.jpg");
   background-size: cover;
   font-size: 1.2rem; }
-  .section__about-1 {
+  .section__about-box {
     width: 80%;
-    height: 20%;
-    margin: 1rem 0;
-    margin-top: 1rem;
+    margin: auto;
+    margin-top: 8rem;
     border: 4px solid #3f4144;
-    border-left: none;
-    background: rgba(52, 62, 79, 0.3); }
-    .section__about-1:hover, .section__about-1:active {
+    background: rgba(52, 62, 79, 0.3);
+    color: white;
+    font-size: 2rem;
+    padding: 2rem; }
+    .section__about-box:hover, .section__about-box:active {
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      border-color: green;
-      animation: move-up 1s ease-out forwards; }
+      border-color: black;
+      animation: move-up 1s ease-out forwards;
+      background: rgba(52, 62, 79, 0.8); }
 
 *,
 *::after,

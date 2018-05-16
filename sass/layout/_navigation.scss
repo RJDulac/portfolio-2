@@ -34,7 +34,7 @@
 			font-weight: bold;
 			&:hover,
 			&:active {
-				color: green;
+				color: black;
 				// background-color: white;
 				padding-bottom: .5rem;
 				border-bottom: 4px solid rgb(210, 212, 216);
@@ -58,7 +58,8 @@
 		&:hover {
 			transform: scale(1.1);
 			// transform: skewY(-7deg);
-			outline: 4px solid rgb(81, 0, 6); 
+			outline: 4px solid black;
+			color: white; 
 
 		}
 
