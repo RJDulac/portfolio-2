@@ -20,6 +20,11 @@
     color: white;
     text-align: center; }
 
+.section__header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10rem; }
+
 .nav {
   position: fixed;
   background: linear-gradient(to right bottom, rgba(52, 62, 79, 0.8), rgba(63, 65, 68, 0.8));
