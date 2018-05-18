@@ -111,6 +111,12 @@
       animation: move-up 1s ease-out forwards;
       background: rgba(52, 62, 79, 0.8); }
 
+.section__portfolio {
+  height: 100vh; }
+
+.section__contact {
+  height: 100vh; }
+
 *,
 *::after,
 *::before {
