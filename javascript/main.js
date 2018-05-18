@@ -1,6 +1,9 @@
+// const active = document.querySelector('.nav__items').querySelectorAll('a');
+
+// const startIt = document.getElementsByClassName('a');
+
 
 // function setActive() {
-// 	active = document.querySelector('.nav__items').querySelectorAll('a');
 
 // 	for(i = 0; i < active.length; i++) {
 // 		if (document.location.href.indexOf(active[i].href) >= 0) {
@@ -9,4 +12,10 @@
 // 	}
 // }
 
-// window.onload = setActive;
+// 	startIt.addEventListener('click', function (event) {
+// 		setActive();
+// 		alert('hi');
+// 	});
+
+
+

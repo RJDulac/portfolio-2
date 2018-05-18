@@ -167,3 +167,33 @@ body {
     transform: translateY(-1.5rem); }
   100% {
     transform: translateY(-1rem); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.btn-text {
+  margin: auto;
+  text-transform: uppercase; }
+  .btn-text:link, .btn-text:visited {
+    margin-top: 15rem;
+    font-size: 1.2rem;
+    color: #d2d4d8;
+    text-decoration: none;
+    border: 1px solid #d2d4d8;
+    padding: 3px;
+    transition: all .2s;
+    width: 10%; }
+  .btn-text:hover {
+    background-color: rgba(196, 200, 206, 0.3);
+    color: #343e4f;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    border-color: #343e4f; }
+  .btn-text:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0); }
