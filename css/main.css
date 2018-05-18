@@ -21,10 +21,12 @@
     text-align: center; }
 
 .section__header {
+  font-size: 4rem;
   text-align: center;
   text-transform: uppercase;
   margin-top: 10rem;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: underline; }
 
 .nav {
   position: fixed;
