@@ -3,7 +3,6 @@
 	flex-direction: column;
 	height: 100%;
 	// position: relative;
-	height: 100rem;
 
 	// background-color: gray;
 
@@ -44,4 +43,16 @@
 	    	background: rgba($color-gray-primary, 0.8);
 	    }
 	}
+}
+
+@media (max-width: 40rem) {
+
+    .section__about {
+    	&-box {
+    		width: 100%;
+    		border-left: 0;
+    		border-right:0;
+    	}
+
+    }
 }

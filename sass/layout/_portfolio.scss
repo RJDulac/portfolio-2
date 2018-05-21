@@ -1,5 +1,5 @@
 .section__portfolio {
-	height: 100vh;
+	height: 100%;
 	padding-top: .5rem;
 	background-color: gray;
 
@@ -38,7 +38,27 @@
 			font-size: 2rem;
 			text-transform: uppercase;
 		}
-
 	}
 
+}
+
+@media (max-width: 40rem) {
+
+    .section__portfolio  {
+        &-items {
+            width: 50%;
+            height: 50%;
+            margin: 0;
+        }
+        &-cont {
+        	padding-top: 4rem;
+			&-links {
+				padding-top: 0;
+			}
+			&-text {
+				padding-top: 4rem;
+			}        	
+        }
+
+    }
 }

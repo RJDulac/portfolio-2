@@ -53,3 +53,15 @@
 
     }
 }
+
+@media (max-width: 40rem) {
+
+    .section__skills {
+        &-box {
+            width: 100%;
+            border-left: 0;
+            border-right:0;
+        }
+
+    }
+}

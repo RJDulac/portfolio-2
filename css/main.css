@@ -28,6 +28,14 @@
   font-weight: bold;
   text-decoration: underline; }
 
+@media (max-width: 40rem) {
+  .header__main {
+    width: 100%; }
+    .header__main-img {
+      height: 15%; }
+    .header__main-links a {
+      padding-bottom: 4rem; } }
+
 .nav {
   position: fixed;
   background: linear-gradient(to right bottom, rgba(52, 62, 79, 0.8), rgba(63, 65, 68, 0.8));
@@ -68,11 +76,14 @@
 .active {
   border-bottom: 4px solid #d2d4d8; }
 
+@media (max-width: 40rem) {
+  .nav {
+    display: none; } }
+
 .section__about {
   display: flex;
   flex-direction: column;
   height: 100%;
-  height: 100rem;
   background-image: linear-gradient(to right bottom, rgba(52, 62, 79, 0.6), rgba(63, 65, 68, 0.6)), url("../img/laptop.jpg");
   background-size: cover;
   font-size: 1.2rem; }
@@ -90,6 +101,12 @@
       border-color: black;
       animation: move-up 1s ease-out forwards;
       background: rgba(52, 62, 79, 0.8); }
+
+@media (max-width: 40rem) {
+  .section__about-box {
+    width: 100%;
+    border-left: 0;
+    border-right: 0; } }
 
 .section__skills {
   display: flex;
@@ -117,8 +134,14 @@
       animation: move-up 1s ease-out forwards;
       background: rgba(52, 62, 79, 0.8); }
 
+@media (max-width: 40rem) {
+  .section__skills-box {
+    width: 100%;
+    border-left: 0;
+    border-right: 0; } }
+
 .section__portfolio {
-  height: 100vh;
+  height: 100%;
   padding-top: .5rem;
   background-color: gray; }
   .section__portfolio-cont {
@@ -140,6 +163,18 @@
       font-size: 2rem;
       text-transform: uppercase; }
 
+@media (max-width: 40rem) {
+  .section__portfolio-items {
+    width: 50%;
+    height: 50%;
+    margin: 0; }
+  .section__portfolio-cont {
+    padding-top: 4rem; }
+    .section__portfolio-cont-links {
+      padding-top: 0; }
+    .section__portfolio-cont-text {
+      padding-top: 4rem; } }
+
 .section__contact {
   height: 100vh;
   padding-top: .5rem;
@@ -148,6 +183,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .section__contact-cont {
+    display: flex;
+    flex-direction: column; }
   .section__contact-info {
     padding-top: 3rem;
     text-align: center;
@@ -159,6 +197,18 @@
     color: #d2d4d8; }
   .section__contact a:hover {
     color: #343e4f; }
+
+@media (max-width: 40rem) {
+  .section__contact {
+    height: 60vh; }
+    .section__contact-info {
+      padding-top: 1rem;
+      font-size: 2rem;
+      letter-spacing: 1px; }
+    .section__contact-cont {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      width: 100%; } }
 
 *,
 *::after,
@@ -248,3 +298,7 @@ body {
   .btn-text:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     transform: translateY(0); }
+
+@media (max-width: 40rem) {
+  .btn-text:link, .btn-text:visited {
+    width: 40%; } }

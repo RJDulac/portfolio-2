@@ -25,3 +25,15 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 40rem) {
+    .btn-text {
+
+      &:link,
+      &:visited {
+
+        width: 40%;
+        }
+ 
+    }
+}
