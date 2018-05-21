@@ -124,20 +124,25 @@
   .section__portfolio-cont {
     padding-top: 8rem;
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly; }
+    justify-content: center; }
+    .section__portfolio-cont-links {
+      padding-top: 0; }
   .section__portfolio-items {
-    width: 10rem;
-    height: 10rem;
-    border: 4px solid #3f4144;
-    border-radius: 50%;
-    background: rgba(52, 62, 79, 0.3);
-    color: white;
-    font-size: 2rem; }
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 4px solid #3f4144; }
+    .section__portfolio-items-link {
+      display: inline-block;
+      text-decoration: none;
+      margin: auto;
+      font-size: 4rem; }
 
 .section__contact {
   height: 100vh;
-  padding-top: .5rem; }
+  padding-top: .5rem;
+  background-color: black;
+  color: #d2d4d8; }
 
 *,
 *::after,

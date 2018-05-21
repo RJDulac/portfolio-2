@@ -7,7 +7,11 @@
 		padding-top: 8rem;
 		display: flex;
 		justify-content: center;
-		justify-content: space-evenly;
+		// justify-content: space-evenly;
+		&-links {
+			padding-top: 0;
+
+		}
 
 		
 
@@ -15,16 +19,23 @@
 
 	
 	&-items {
-		width: 10rem;
-		height: 10rem;
+		width: auto;
+		height: auto;
+		// margin-left: 4rem;
+		// margin-right: 4rem;
+		margin: auto;
 
 		border: 4px solid $color-gray-secondary;
-		border-radius: 50%;
-	
-		background: rgba($color-gray-primary, 0.3);
 
-		color: white;
-		font-size: 2rem;
+		&-link {
+			display: inline-block; 
+			text-decoration:none;
+			margin: auto;
+
+
+
+			font-size: 4rem;
+		}
 
 	}
 
