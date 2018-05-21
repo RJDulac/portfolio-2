@@ -4,14 +4,17 @@
 	background-color: gray;
 
 	&-cont {
-		padding-top: 8rem;
+		padding-top: 1rem;
 		display: flex;
 		justify-content: center;
 		// justify-content: space-evenly;
 		&-links {
-			padding-top: 0;
-
+			padding-top: 1rem;
 		}
+		&-text {
+			padding-top: 1rem;
+		}
+
 
 		
 
@@ -25,16 +28,15 @@
 		// margin-right: 4rem;
 		margin: auto;
 
-		border: 4px solid $color-gray-secondary;
+		// border: 4px solid $color-gray-secondary;
 
-		&-link {
+		&-text {
 			display: inline-block; 
 			text-decoration:none;
 			margin: auto;
 
-
-
-			font-size: 4rem;
+			font-size: 2rem;
+			text-transform: uppercase;
 		}
 
 	}

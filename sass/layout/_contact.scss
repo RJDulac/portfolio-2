@@ -4,4 +4,24 @@
 
 	background-color: black;
 	color: $color-white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&-info {
+		padding-top: 3rem;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 3rem;
+		letter-spacing: 3px;
+		text-decoration: none;
+		display: inline-block;
+		color: $color-white;
+
+
+	}
+		& a:hover{
+			color: $color-gray-primary;
+
+		}	
 }
